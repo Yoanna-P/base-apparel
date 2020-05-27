@@ -1,0 +1,49 @@
+
+body {
+    margin:0;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: repeat;
+}
+.container {
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 10% 90%;
+}
+
+.logo {
+grid-area: header;
+}
+
+.text {
+grid-area: content;
+}
+
+.hero {
+grid-area: hero;
+grid-column: 2/3;
+grid-row:1/3;
+margin-top:-50px;
+}
+
+.text{
+    margin-top: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 50px 150px 0 100px;
+}
+
+img {
+    padding: 50px 150px 0 100px;
+}
+ 
+h1>.rosa {
+    color: red;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
